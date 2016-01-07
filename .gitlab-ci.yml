@@ -1,0 +1,5 @@
+auto_pushmaster:
+  only:
+    - /^development$/
+  script:
+    - git push -u sg2.soireegeek.com/testgit.git git@gitlab.com:Seospan/soireegeek.git
